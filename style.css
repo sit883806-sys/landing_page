@@ -1,0 +1,52 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    background-color: #1f2937;
+}
+.herologotext{
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+}
+.herotext{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.herosecondarytext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.headerone{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.headertwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+img{
+    background-color: silver;
+    width: 450px;
+    height: 200px;
+}
