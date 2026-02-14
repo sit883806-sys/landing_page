@@ -6,6 +6,9 @@ body{
 }
 .header{
     background-color: #1f2937;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .herologotext{
     color: #f9faf8;
@@ -13,6 +16,7 @@ body{
     margin: 0;
 }
 .herotext{
+    margin: 0;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
@@ -20,19 +24,37 @@ body{
 .herosecondarytext{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
 }
 .headerone{
     display: flex;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
 }
 .headertwo{
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    gap: 20px;
+    gap: 52px;
 }
+.leftheader{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.headerbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    gap: 100px;
+    margin-bottom: 100px;
 
+}   
 ul{
     list-style: none;
     padding: 0;
@@ -46,7 +68,19 @@ a{
     color: #e5e7eb;
 }
 img{
+    display: flex;
     background-color: silver;
-    width: 450px;
-    height: 200px;
+    width: 500px;
+    height: 220px;
 }
+button{
+    background-color: #3882f6;
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
