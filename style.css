@@ -3,12 +3,13 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    flex-wrap: wrap;
+    flex: 1;
 }
 .header{
     background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
-
 }
 .herologotext{
     color: #f9faf8;
@@ -67,8 +68,10 @@ a{
     font-size: 18px;
     color: #e5e7eb;
 }
-img{
+.imagecontainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: silver;
     width: 500px;
     height: 220px;
@@ -82,5 +85,33 @@ button{
     font-size: 16px;
     font-weight: bolder;
 }
+.randominfo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.info{
+    text-align: center;
+    max-width: 150px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.img{
+    width: 135px;
+    height: 130px;
+    border-radius: 12px;
+    border: 5px solid #3882f6; /*got to add solid to add border color*/
+}
+
 
 
