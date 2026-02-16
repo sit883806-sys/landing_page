@@ -83,6 +83,7 @@ button{
     color: #f9faf8;
     font-size: 16px;
     font-weight: bolder;
+    cursor: pointer;
 }
 .randominfo{
     display: flex;
@@ -132,6 +133,46 @@ h2{
     font-weight: 900;
     max-width: 800px;
     margin-right: 50px;
+}
+.back{
+    margin: auto;
+    padding: 100px;
+}
+.signup{
+    display: flex;
+    background-color: #3882f6;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    gap: 120px;
+}
+.maintext{
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 20px;
+}
+.maintext, .sidetext{
+    padding: 0;
+    margin: 0;
+}
+.sidetext{
+    color: rgba(245, 245, 245, 0.852);
+}
+.pboss{
+    display: flex;
+    flex-direction: column;
+}
+.signupbutton{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    color: white;
+    cursor: pointer;
+}
+.signupbutton:hover{
+    background-color: white;
+    color: gray;
 }
 
 
