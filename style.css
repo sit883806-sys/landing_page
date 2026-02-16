@@ -4,7 +4,6 @@ body{
     flex-direction: column;
     margin: 0;
     flex-wrap: wrap;
-    flex: 1;
 }
 .header{
     background-color: #1f2937;
@@ -98,17 +97,17 @@ h2{
     font-weight: 900;
 }
 .info{
-    text-align: center;
-    max-width: 150px;
+    text-align:center;
+    max-width: 140px;
 }
 .container{
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
 }
 .img{
-    width: 135px;
-    height: 130px;
+    width: 130px;
+    height: 140px;
     border-radius: 12px;
     border: 5px solid #3882f6; /*got to add solid to add border color*/
 }
@@ -117,19 +116,22 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 80px;
 }
 .quotetext{
-    max-width: 800px;
+    max-width: 780px;
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
 }
 .author{
     display: flex;
-    justify-content: end;
+    justify-content:end;
     font-size: 25px;
     color: #1f2937;
     font-weight: 900;
     max-width: 800px;
+    margin-right: 50px;
 }
+
 
