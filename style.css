@@ -5,10 +5,15 @@ body{
     margin: 0;
     flex-wrap: wrap;
 }
-.header{
+.header, .footer{
     background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
+}
+.footer{
+    padding: 40px;
+    justify-content: center;
+    color: #e5e7eb;
 }
 .herologotext{
     color: #f9faf8;
